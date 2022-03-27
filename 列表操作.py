@@ -1,0 +1,20 @@
+a=['a','b','c','1','2','3','徐强','王刚','李明']
+print(a[6])
+print(a.index('徐强'))
+print(a[0:6])
+print(a+a)
+print(a*3)
+print('徐强' in a)
+print('李红' in a)
+print(len(a))
+print(max(a))
+print(min(a))
+print(a.count('3'))
+a[7]='李刚'
+print(a)
+a.append('徐红')
+print(a)
+del a[7]
+print(a)
+a.sort()
+print(a)
